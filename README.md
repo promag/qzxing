@@ -211,6 +211,7 @@ Or use the encoding function with the optional custom settings that are passed l
 | border         | true, false | whether the image has a border                |
 | corretionLevel | L, M, Q, H  | the error correction level                    |
 | format         | qrcode      | the encode formatter. Currently only QR Code. |
+| transparent    | true, false | whether the black pixels are transparent      |
 
 the size of the image can be adjusted by using the Image.sourceWidth and Image.sourceHeight properties of Image QML element.
 
